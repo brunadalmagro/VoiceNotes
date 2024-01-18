@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas por Voz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Notas por Voz</h1>
+        <textarea id="texto-notas" name="texto" placeholder="Clique no botão e fale para adicionar notas"></textarea>
+        <button id="gravar-nota" onclick="iniciarGravacao()">Iniciar Gravação</button>
+        <button id="limpar-selecao" onclick="apagarSelecao()">Limpar Seleção</button>
+        <button id="limpar-texto" onclick="limparTexto()">Limpar Texto</button>
+        <script src="./app.js"></script>
+    </div>
+</body>
+
+</html>
